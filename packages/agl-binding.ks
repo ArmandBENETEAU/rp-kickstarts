@@ -4,6 +4,7 @@
 %post
 AGL_BINDING="\
 	helloworld-binding \
+	signal-composer-plugins-demo-n2k \
 "
 echo "AGL_BINDING=\"\$AGL_BINDING ${AGL_BINDING}\"" >> /tmp/agl-binding-list
 %end
